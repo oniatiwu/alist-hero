@@ -6,16 +6,7 @@ cat >/alist/config/config.json <<EOF
   "address": "0.0.0.0",
   "port": $PORT,
   "assets": "/",
-  "database": {
-    "type": "$ADATABASE",
-    "user": "$BSQLUSER",
-    "password": "$CSQLPASSWORD",
-    "host": "$DSQLHOST",
-    "port": $ESQLPORT,
-    "name": "$FSQLNAME",
-    "table_prefix": "x_",
-    "db_file": "/alist/config/data.db"
-  },
+ 
   "scheme": {
     "https": false,
     "cert_file": "",
